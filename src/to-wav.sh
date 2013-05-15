@@ -1,0 +1,1 @@
+for i in $(ls); do sox $i $(basename $i .aiff).wav; done
